@@ -1,0 +1,77 @@
+*{
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  font-family:Vinta;
+  font-style: normal;
+  padding: 2px;
+  font-size: 16px;
+  background-color: khaki;
+}
+
+h1{
+  font-family:Verdana;
+  font-size: 1rem;
+}
+
+
+.card-image img {
+  width: 300px;
+  margin-left: -6px
+}
+
+.card-description {
+  text-align: right;
+  font-family: Fluxisch Else;
+  font-size: 15pt;
+  margin: 25px;
+  writing-mode: sideways-lr;
+}
+
+.card-information {
+  margin: 12px;
+  margin-bottom: 60px;
+  margin-top: -12px;
+  font-family: Georgia;
+  text-align: justify;
+}
+
+.card-title {
+  font-style: italic;
+}
+
+.card-author {
+  writing-mode: vertical-lr;
+  text-orientation: upright;
+  margin-left: -12px;
+  margin-top: -24px;
+  text-transform: uppercase;
+}
+
+.card-block {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.card {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  background-color: khaki;
+  width: 450px;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  flex-wrap: wrap;
+}
+
+.card-title {
+
+}
